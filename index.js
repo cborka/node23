@@ -1,2 +1,4 @@
-let num = 5;
-console.log(`Variable = ${num}`)
+const os = require('os');
+
+let res = os.platform();
+console.log(res)
