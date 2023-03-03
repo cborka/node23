@@ -1,0 +1,11 @@
+{
+  "name": "node23",
+  "version": "0.0.1",
+  "description": "Learn nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "cborka",
+  "license": "ISC"
+}
