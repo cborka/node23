@@ -29,4 +29,12 @@ let sum = 0;
 for(let key in salaries) {
   sum += salaries[key];
 }
-alert(sum)
+// alert(sum)
+
+alert( 7.3e9 ); // Выводит 7300000000
+alert( 123456..toString(36) ); // 2n9c
+alert( parseInt('2n9c', 36) ); // 123456
+alert( 0.1 + 0.2 ); // 0.30000000000000004
+
+
+
