@@ -4,8 +4,12 @@
   "description": "Learn nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "bot": "node discord_bot.js"
   },
   "author": "cborka",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.8.0"
+  }
 }
